@@ -1,0 +1,238 @@
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    background-image: url(../image/pressBGImage.png);
+    background-size: 200px;
+}
+
+
+/*meun basic*/
+
+.top {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+/*meun basic*/
+
+nav {
+    background: black;
+    justify-content: space-between;
+    margin-top: -16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    /*flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #555;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*icon*/
+
+.iconWeb {
+    border: 3px solid #5CADAD;
+    max-width: 900px;
+    width: 900px;
+    background-color: #fff;
+    height: auto;
+    transform: rotateZ(15deg);
+    margin: -1025px 50px;
+    position: absolute;
+    z-index: 3;
+    box-shadow: 10px 10px 100px #555;
+    opacity: 0;
+}
+
+.icon_nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.icon_nav li {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.iconWeb hr {
+    border-width: 1px;
+    color: black;
+    width: 800px;
+    margin-left: 40px;
+}
+
+.tab td img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.tabP {
+    margin: -27px 20px auto 10px;
+}
+
+.article {
+    margin-left: 40px;
+    width: 500px;
+    display: table;
+}
+
+.BesideTheArticle {
+    background-color: darkgray;
+    width: 200px;
+    height: 300px;
+}
+
+.tdBox {
+    background-color: #eee;
+    width: 230px;
+    height: 230px;
+    margin: 0px 40px 0px 20px;
+}
+
+
+/*red block*/
+
+.RedBlock {
+    background-color: #414b38;
+    width: 900px;
+    height: 900px;
+    margin: 150px 50px;
+    transform: rotateZ(-10deg);
+    position: relative;
+    z-index: 1;
+}
+
+.centrol_block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#RedBlock {
+    opacity: 0;
+}
+
+
+/*vogue*/
+
+.vogue {
+    border: 3px solid #f49753;
+    max-width: 900px;
+    width: 900px;
+    background-color: #fff;
+    height: 800px;
+    margin: -1050px 50px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 10px 10px 100px #555;
+}
+
+.vogue_title {
+    font-size: 100px;
+    font-family: 'Vidaloka';
+    text-align: center;
+    color: #dd2929;
+    margin: 0;
+}
+
+.vogue_nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.vogue_nav li {
+    margin-top: -0px;
+    display: block;
+    padding: 15px;
+}
+
+.sub_nav {
+    margin-top: -5px;
+    font-size: 10px;
+    color: #939191;
+}
+
+.vogue-img {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.vogue-img img {
+    width: 700px;
+}
+
+.vogue-img+p {
+    width: 400px;
+    color: white;
+    position: relative;
+    margin-top: -400px;
+    margin-left: 200px;
+}
+
+.vogue:hover {
+    z-index: 4;
+}
+
+.vogue:hover+div {
+    box-shadow: none;
+}
+
+#vogue {
+    opacity: 0;
+}
+
+.fadefirst {
+    animation: fadein 0.5s ease-in forwards;
+}
+
+.fadesecond {
+    animation: fadein 0.5s 0.5s ease-in forwards;
+}
+
+.fadethird {
+    animation: fadein 0.5s 1s ease-in forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}

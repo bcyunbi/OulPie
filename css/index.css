@@ -1,0 +1,91 @@
+body {
+    background-image: url(../image/bg-img.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Limelight', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#i {
+    font-size: 40px;
+    margin-bottom: 1.25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.pink {
+    background-color: rgb(255, 209, 209);
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.yellow {
+    background-color: rgb(255, 238, 153);
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0px auto 40px;
+    margin-top: -50px;
+}
+
+.panels div {
+    padding: 50px;
+}
+
+.back {
+    transform: rotateY(90deg);
+    background-image: url(../image/logo3.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #695d5f;
+}
+
+.YellowBack {
+    transform: rotateY(90deg);
+}
+
+.front {
+    position: absolute;
+}
+
+.panels li:hover div.front {
+    animation: twirl 0.2s ease-in forwards;
+}
+
+.panels li:hover div.back {
+    animation: twirl 0.2s 0.2s ease-out forwards reverse;
+}
+
+.panels li:hover div.YellowBack {
+    animation: twirl 0.2s 0.2s ease-out forwards reverse;
+}
+
+@keyframes twirl {
+    0% {
+        transform: rotateY(0deg)
+    }
+    100% {
+        transform: rotateY(90deg)
+    }
+}
+.top {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}

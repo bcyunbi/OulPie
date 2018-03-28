@@ -1,0 +1,131 @@
+body{
+    margin: auto 0;
+    text-align: center;
+}
+
+.top{
+    width:100%;
+    margin:0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+}
+/*meun basic*/
+
+nav{
+    background: black;
+    justify-content: space-between;
+    margin-top: -2px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    /*flex*/
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding:10px 30px 10px 30px;
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: #555;
+    text-decoration: none;
+    color: white;
+}
+
+.top_pic{
+    height: 400px;
+    
+}
+
+#p1{
+    font-family: 'Limelight', cursive;
+    font-size: 60px;
+     margin-top: 50px;
+}
+.top_word{
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+    width: 900px;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+.second_word{
+    width: 1000px;
+    height: 3000px;
+     margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.imgsss{
+    width:800px;
+}
+.littlefont{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+.bigfont{
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+.midfont{
+    font-family: 'Croissant One', cursive;
+    font-size: 20px;
+    margin-bottom: -2px;
+    color: rgba(115, 170, 123, 0.69);
+}
+.picword{
+    margin-bottom: 50px;
+}
+.mid_2font{
+    background-color: white;
+    padding: 5px;
+    width: 1000px;
+    margin: auto;
+}
+.mid_2font p{
+    color: black;
+    font-family: 'Alegreya Sans SC', cursive;
+    font-size:100px;
+    margin-top: 50px;
+    text-shadow: 3px 3px 3px #cccccc;
+    background-color: white;
+    margin-top: -350px
+}
+
+.mid_2font a{
+    text-decoration: none;
+}
+.mid_2font a:hover{
+    text-decoration: none;
+}
+.mid_2font a:hover p{
+    color: rgba(19, 20, 21, 0.52);   
+}
+.last_pic{
+    height: 450px;
+    margin-top: -120px;
+
+}
+.font{
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    margin-top: 5px;
+    width: 800px;
+    margin: auto;
+}
