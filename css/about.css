@@ -127,4 +127,7 @@ a {
     justify-content: center;
     align-items: center;
   }
+  nav {
+    overflow: initial;
+  }
 }

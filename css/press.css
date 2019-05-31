@@ -235,4 +235,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
   }
+  nav {
+    overflow: initial;
+  }
 }
