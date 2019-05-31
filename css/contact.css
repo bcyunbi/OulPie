@@ -1,194 +1,206 @@
 body {
-    margin: 0 auto;
-    background-image: url(../image/contact_bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+  margin: 0 auto;
+  background-image: url(../image/contact_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .top {
-    width: 100%;
-    margin: 0 auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
 }
-
 
 /*meun basic*/
 
 nav {
-    margin-top: -16px;
-    background: black;
-    justify-content: space-between;
+  background: black;
+  justify-content: space-between;
+  overflow: scroll;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0px;
-    /*flex*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    display: block;
-    padding: 10px 30px 10px 30px;
-    font-family: 'Poiret One', cursive;
-    font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 2vh 3vh;
+  font-family: "Poiret One", cursive;
+  font-size: 2.5vh;
 }
 
 nav a:hover {
-    background-color: #555;
-    text-decoration: none;
-    color: white;
+  background-color: #555;
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px 30px 10px 30px;
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #555;
+  text-decoration: none;
+  color: white;
 }
 
 .container {
-    width: 950px;
-    height: 800px;
-    margin: 150px auto 0 auto;
-    background-color: rgba(255, 255, 255, 0.64);
+  width: 950px;
+  height: 800px;
+  margin: 150px auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.64);
 }
 
 .h1 {
-    padding-top: 50px;
-    margin-left: 60px;
-    padding-bottom: 10px;
-    font-size: 80px;
-    font-family: 'Limelight', cursive;
+  padding-top: 50px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  font-size: 80px;
+  font-family: "Limelight", cursive;
 }
 
 .formtext {
-    font-family: 'Work Sans', cursive;
-    font-size: 20px;
-    font-weight: bold;
+  font-family: "Work Sans", cursive;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .form1 {
-    margin-top: 50px;
-    margin-left: 120px;
-    float: left;
+  margin-top: 50px;
+  margin-left: 120px;
+  float: left;
 }
 
 .form2 {
-    margin-top: 50px;
-    margin-left: 55px;
-    float: left;
+  margin-top: 50px;
+  margin-left: 55px;
+  float: left;
 }
 
 .form3 {
-    margin-top: 10px;
-    margin-left: 120px;
-    clear: both;
+  margin-top: 10px;
+  margin-left: 120px;
+  clear: both;
 }
 
 .name {
-    background-color: rgba(146, 172, 151, 0.62);
-    height: 40px;
-    width: 320px;
-    margin-top: 10px;
-    border-radius: 1em;
-    border: solid;
-    color: #e0e0e0;
-    font-size: 15px;
-    font-family: 'Work Sans', cursive;
-    font-weight: bold;
+  background-color: rgba(146, 172, 151, 0.62);
+  height: 40px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 1em;
+  border: solid;
+  color: #e0e0e0;
+  font-size: 15px;
+  font-family: "Work Sans", cursive;
+  font-weight: bold;
 }
 
 .emailbox {
-    background-color: rgba(146, 172, 151, 0.62);
-    height: 40px;
-    width: 700px;
-    margin-top: 10px;
-    border-radius: 1em;
-    border: solid;
-    color: #e0e0e0;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Work Sans', cursive;
-    clear: both;
+  background-color: rgba(146, 172, 151, 0.62);
+  height: 40px;
+  width: 700px;
+  margin-top: 10px;
+  border-radius: 1em;
+  border: solid;
+  color: #e0e0e0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Work Sans", cursive;
+  clear: both;
 }
 
 .commentbox {
-    background-color: rgba(146, 172, 151, 0.62);
-    height: 100px;
-    width: 700px;
-    margin-top: 10px;
-    border-radius: 1em;
-    border: solid;
-    color: #e0e0e0;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Work Sans', cursive;
-    clear: both;
+  background-color: rgba(146, 172, 151, 0.62);
+  height: 100px;
+  width: 700px;
+  margin-top: 10px;
+  border-radius: 1em;
+  border: solid;
+  color: #e0e0e0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Work Sans", cursive;
+  clear: both;
 }
 
 .btnsubmit {
-    height: 35px;
-    width: 100px;
-    background-color: #848484;
-    margin-left: 600px;
-    margin-top: 35px;
-    border-radius: 1em;
-    border: solid;
-    color: #e0e0e0;
-    font-family: 'Work Sans', cursive;
+  height: 35px;
+  width: 100px;
+  background-color: #848484;
+  margin-left: 600px;
+  margin-top: 35px;
+  border-radius: 1em;
+  border: solid;
+  color: #e0e0e0;
+  font-family: "Work Sans", cursive;
 }
 
 .d1 {
-    /*    background-color: beige;*/
-    text-align: center;
-    margin: 10px auto 0 200px;
-    bottom: 200;
+  /*    background-color: beige;*/
+  text-align: center;
+  margin: 10px auto 0 200px;
+  bottom: 200;
 }
 
 .d1 img {
-    margin-left: 350px;
-    margin-top: 17px;
-    float: left;
+  margin-left: 350px;
+  margin-top: 17px;
+  float: left;
 }
 
 .d2 {
-    height: 32px;
-    /*        background-color: burlywood;*/
-    text-align: center;
-    display: block;
-    margin-top: 150px;
-    /*    margin-bottom: 5px;*/
-    /*    margin-left: 380px;*/
-    font-size: 8px;
-    font-family: 'Work Sans', cursive;
-    bottom: 0;
+  height: 32px;
+  /*        background-color: burlywood;*/
+  text-align: center;
+  display: block;
+  margin-top: 150px;
+  /*    margin-bottom: 5px;*/
+  /*    margin-left: 380px;*/
+  font-size: 8px;
+  font-family: "Work Sans", cursive;
+  bottom: 0;
 }
 
 .contact_icon {
-    max-width: 100px;
-    margin: 10px 230px 0 50px;
-    float: left;
+  max-width: 100px;
+  margin: 10px 230px 0 50px;
+  float: left;
 }
 
 .contact_icon ul {
-    padding: 0;
-    position: absolute;
-    margin-top: 5px;
+  padding: 0;
+  position: absolute;
+  margin-top: 5px;
 }
 
 .contact_icon li {
-    margin-bottom: 4px;
-    list-style: none;
-    max-width: 0px;
+  margin-bottom: 4px;
+  list-style: none;
+  max-width: 0px;
 }
 
 .contact_icon span {
-    font-size: 10px;
-    font-family: 'Work Sans', cursive;
-    margin-left: 5px;
+  font-size: 10px;
+  font-family: "Work Sans", cursive;
+  margin-left: 5px;
 }
